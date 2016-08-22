@@ -1,20 +1,7 @@
 # Inkscape Puppet Module for Boxen
 
-Installs [Inkscape](http://inkscape.org/), an open-source vector graphics editor. 
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-[![Build Status](https://travis-ci.org/boxen/puppet-inkscape.png?branch=master)](https://travis-ci.org/boxen/puppet-inkscape)
-
-## Usage
-
-```puppet
-include inkscape
-```
-
-## Required Puppet Modules
-
-* `xquartz`
-
-## Development
-
-Write code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
